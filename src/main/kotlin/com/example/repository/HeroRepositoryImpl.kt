@@ -408,8 +408,29 @@ class HeroRepositoryImpl() : HeroRepository {
 
     }
 
-    override suspend fun searchHeroes(name: String): ApiResponse {
-        TODO("Not yet implemented")
+    override suspend fun searchHeroes(name: String?): ApiResponse {
+        return ApiResponse(
+            success = true,
+            message = "ok",
+            heroes = getHero(name)
+        )
+    }
+
+    private fun getHero(name: String?): List<Hero> {
+        val founded = mutableListOf<Hero>()
+        return if (!name.isNullOrEmpty()) {
+            heroes.forEach { (_, heroes) ->
+                heroes.forEach { hero ->
+                    if (hero.name.lowercase().contains(name.lowercase())) {
+                        founded.add(hero)
+                    }
+                }
+            }
+            founded
+        } else {
+            emptyList()
+        }
+
     }
 
 
