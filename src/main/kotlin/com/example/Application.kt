@@ -1,5 +1,6 @@
 package com.example
 
+import com.example.dao.DatabaseFactory
 import io.ktor.server.application.*
 import com.example.plugins.*
 
@@ -13,4 +14,5 @@ fun Application.module() {
     configureSerialization()
     configureDefaultHeader()
     configureStatusPages()
+    DatabaseFactory.init()
 }

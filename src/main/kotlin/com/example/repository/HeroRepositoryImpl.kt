@@ -27,27 +27,27 @@ class HeroRepositoryImpl() : HeroRepository {
             power = 98,
             month = "July",
             day = "23rd",
-            family = listOf(
-                "Fugaku",
-                "Mikoto",
-                "Itachi",
-                "Sarada",
-                "Sakura"
-            ),
-            abilities = listOf(
-                "Sharingan",
-                "Rinnegan",
-                "Sussano",
-                "Amateratsu",
-                "Intelligence"
-            ),
-            natureTypes = listOf(
-                "Lightning",
-                "Fire",
-                "Wind",
-                "Earth",
-                "Water"
-            )
+//            family = listOf(
+//                "Fugaku",
+//                "Mikoto",
+//                "Itachi",
+//                "Sarada",
+//                "Sakura"
+//            ),
+//            abilities = listOf(
+//                "Sharingan",
+//                "Rinnegan",
+//                "Sussano",
+//                "Amateratsu",
+//                "Intelligence"
+//            ),
+//            natureTypes = listOf(
+//                "Lightning",
+//                "Fire",
+//                "Wind",
+//                "Earth",
+//                "Water"
+    //       )
         ),
         Hero(
             id = 2,
@@ -58,7 +58,7 @@ class HeroRepositoryImpl() : HeroRepository {
             power = 98,
             month = "Oct",
             day = "10th",
-            family = listOf(
+           /* family = listOf(
                 "Minato",
                 "Kushina",
                 "Boruto",
@@ -76,7 +76,7 @@ class HeroRepositoryImpl() : HeroRepository {
                 "Earth",
                 "Lava",
                 "Fire"
-            )
+            )*/
         ),
         Hero(
             id = 3,
@@ -87,7 +87,7 @@ class HeroRepositoryImpl() : HeroRepository {
             power = 92,
             month = "Mar",
             day = "28th",
-            family = listOf(
+            /*family = listOf(
                 "Kizashi",
                 "Mebuki",
                 "Sarada",
@@ -103,7 +103,7 @@ class HeroRepositoryImpl() : HeroRepository {
                 "Earth",
                 "Water",
                 "Fire"
-            )
+            )*/
         )
     )
     override val page2 = listOf(
@@ -116,7 +116,7 @@ class HeroRepositoryImpl() : HeroRepository {
             power = 95,
             month = "Mar",
             day = "27th",
-            family = listOf(
+            /*family = listOf(
                 "Naruto",
                 "Hinata",
                 "Hanabi",
@@ -133,7 +133,7 @@ class HeroRepositoryImpl() : HeroRepository {
                 "Lightning",
                 "Wind",
                 "Water"
-            )
+            )*/
         ),
         Hero(
             id = 5,
@@ -144,7 +144,7 @@ class HeroRepositoryImpl() : HeroRepository {
             power = 95,
             month = "Mar",
             day = "31st",
-            family = listOf(
+            /*family = listOf(
                 "Sasuke Uchiha",
                 "Sakura Uchiha"
             ),
@@ -157,7 +157,7 @@ class HeroRepositoryImpl() : HeroRepository {
                 "Lightning",
                 "Wind",
                 "Fire"
-            )
+            )*/
         ),
         Hero(
             id = 6,
@@ -168,7 +168,7 @@ class HeroRepositoryImpl() : HeroRepository {
             power = 95,
             month = "Jul",
             day = "25th",
-            family = listOf(
+            /*family = listOf(
                 "Orochimaru",
                 "Log"
             ),
@@ -180,7 +180,7 @@ class HeroRepositoryImpl() : HeroRepository {
             natureTypes = listOf(
                 "Lightning",
                 "Wind"
-            )
+            )*/
         )
     )
     override val page3 = listOf(
@@ -193,7 +193,7 @@ class HeroRepositoryImpl() : HeroRepository {
             power = 92,
             month = "Jan",
             day = "1st",
-            family = listOf(
+           /* family = listOf(
                 "Kokatsu"
             ),
             abilities = listOf(
@@ -203,7 +203,7 @@ class HeroRepositoryImpl() : HeroRepository {
             ),
             natureTypes = listOf(
                 "Fire"
-            )
+            )*/
         ),
         Hero(
             id = 8,
@@ -214,7 +214,7 @@ class HeroRepositoryImpl() : HeroRepository {
             power = 97,
             month = "Oct",
             day = "27th",
-            family = listOf(
+            /*family = listOf(
                 "Mitsuki",
                 "Log"
             ),
@@ -229,7 +229,7 @@ class HeroRepositoryImpl() : HeroRepository {
                 "Fire",
                 "Earth",
                 "Water"
-            )
+            )*/
         ),
         Hero(
             id = 9,
@@ -240,7 +240,7 @@ class HeroRepositoryImpl() : HeroRepository {
             power = 96,
             month = "Sep",
             day = "15th",
-            family = listOf(
+            /*family = listOf(
                 "Sakumo"
             ),
             abilities = listOf(
@@ -253,7 +253,7 @@ class HeroRepositoryImpl() : HeroRepository {
                 "Fire",
                 "Earth",
                 "Water"
-            )
+            )*/
         )
     )
     override val page4 = listOf(
@@ -266,7 +266,7 @@ class HeroRepositoryImpl() : HeroRepository {
             power = 100,
             month = "Jan",
             day = "1st",
-            family = listOf(
+            /*family = listOf(
                 "Otsutsuki Clan"
             ),
             abilities = listOf(
@@ -278,7 +278,7 @@ class HeroRepositoryImpl() : HeroRepository {
             ),
             natureTypes = listOf(
                 "Fire"
-            )
+            )*/
         ),
         Hero(
             id = 11,
@@ -289,7 +289,7 @@ class HeroRepositoryImpl() : HeroRepository {
             power = 98,
             month = "Jan",
             day = "1st",
-            family = listOf(
+            /*family = listOf(
                 "Otsutsuki Clan"
             ),
             abilities = listOf(
@@ -303,7 +303,7 @@ class HeroRepositoryImpl() : HeroRepository {
                 "Wind",
                 "Water",
                 "Earth"
-            )
+            )*/
         ),
         Hero(
             id = 12,
@@ -314,7 +314,7 @@ class HeroRepositoryImpl() : HeroRepository {
             power = 95,
             month = "Jan",
             day = "1st",
-            family = listOf(
+            /*family = listOf(
                 "Otsutsuki Clan"
             ),
             abilities = listOf(
@@ -327,7 +327,7 @@ class HeroRepositoryImpl() : HeroRepository {
                 "Lightning",
                 "Wind",
                 "Earth"
-            )
+            )*/
         )
     )
     override val page5 = listOf(
@@ -340,7 +340,7 @@ class HeroRepositoryImpl() : HeroRepository {
             power = 99,
             month = "Jan",
             day = "1st",
-            family = listOf(
+            /*family = listOf(
                 "Unknown"
             ),
             abilities = listOf(
@@ -350,7 +350,7 @@ class HeroRepositoryImpl() : HeroRepository {
             ),
             natureTypes = listOf(
                 "Unknown"
-            )
+            )*/
         ),
         Hero(
             id = 14,
@@ -361,7 +361,7 @@ class HeroRepositoryImpl() : HeroRepository {
             power = 90,
             month = "Jan",
             day = "1st",
-            family = listOf(
+            /*family = listOf(
                 "Unknown"
             ),
             abilities = listOf(
@@ -371,7 +371,7 @@ class HeroRepositoryImpl() : HeroRepository {
             ),
             natureTypes = listOf(
                 "Unknown"
-            )
+            )*/
         ),
         Hero(
             id = 15,
@@ -382,7 +382,7 @@ class HeroRepositoryImpl() : HeroRepository {
             power = 90,
             month = "Jan",
             day = "1st",
-            family = listOf(
+           /* family = listOf(
                 "Jiraiya"
             ),
             abilities = listOf(
@@ -393,17 +393,17 @@ class HeroRepositoryImpl() : HeroRepository {
             natureTypes = listOf(
                 "Fire",
                 "Earth"
-            )
+            )*/
         )
     )
 
     override suspend fun getAllHeroes(page: Int): ApiResponse {
     return ApiResponse(
         success = true,
-        heroes = heroes[page]!!,
+        message = "ok",
         prevPage = calculatePage(page)[PREVIOUS_PAGE_KEY],
         nextPage =calculatePage(page)[NEXT_PAGE_KEY],
-        message = "ok"
+        //heroes = heroes[page]!!
     )
 
     }

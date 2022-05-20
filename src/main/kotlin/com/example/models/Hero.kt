@@ -1,6 +1,7 @@
 package com.example.models
 
 import kotlinx.serialization.Serializable
+import org.jetbrains.exposed.sql.*
 
 @Serializable
 data class Hero(
@@ -12,7 +13,15 @@ data class Hero(
     val power: Int,
     val month: String,
     val day: String,
-    val family: List<String>,
-    val abilities: List<String>,
-    val natureTypes: List<String>
 )
+object Heroes : Table() {
+    val id = integer("id").autoIncrement()
+    val name = varchar("name", 128)
+    val image= varchar("image", 1024)
+    val about= varchar("about", 2024)
+    val rating = double("rating")
+    val power = integer("power")
+    val month= varchar("month", 128)
+    val day= varchar("day", 128)
+    override val primaryKey = PrimaryKey(id)
+}

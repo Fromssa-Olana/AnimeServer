@@ -42,9 +42,7 @@ class DAOFacadeImpl : DAOFacade {
         runBlocking {
             if (allHeroes().isEmpty()) {
                 for (hero in heroes) {
-                    println("Saving: ${hero.name}")
                     addHero(hero)
-                    println("done Saving${hero.name}")
                 }
             }
         }
